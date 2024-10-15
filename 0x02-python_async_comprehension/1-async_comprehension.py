@@ -5,4 +5,5 @@ async_generator = __import__('0-async_generator').async_generator
 
 
 async def async_comprehension() -> List[int]:
-    return [ise async for ise in async_generator()]
+    res = [ise async for ise in async_generator()]
+    return res
